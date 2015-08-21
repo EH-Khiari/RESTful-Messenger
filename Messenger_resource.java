@@ -24,31 +24,31 @@ public class Messenger_resource {
 	@POST
 	public Message_model addMessage(Message_model new_message)
 	{
-		return new_message;
+		return message_service.addMessage(new_message);
 	}
 	
 	@GET
 	public Message_model getMessage(long id)
 	{
-		return new Message_model();
+		return message_service.getMessage(id);
 	}
 	
 	@GET 
 	public ArrayList<Message_model> getAllMessages()
 	{
-		return new ArrayList<Message_model>();
+		return message_service.getAllMessages();
 	}
 	
 	
 	@PUT
-	public Message_model updateMessage(Message_model new_message)
+	public Message_model updateMessage(long id, Message_model new_message)
 	{
-		return new_message;
+		return message_service.updateMessage(new_message);
 	}
 	
 	@DELETE
 	public void deleteMessage(long id)
 	{
-		
+		message_service.deleteMessage(id);
 	}
 }
