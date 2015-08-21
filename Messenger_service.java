@@ -32,9 +32,9 @@ public class Messenger_service {
 		return new ArrayList<Message_model>();
 	}
 	
-	public Message_model updateMessage(long id, Message_model new_message)
+	public Message_model updateMessage(Message_model new_message)
 	{
-		if (id <= 0) {
+		if (new_message.getId() <= 0) {
 			System.out.println("Invalid ID");
 			return null;
 		}
