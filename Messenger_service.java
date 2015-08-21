@@ -19,6 +19,11 @@ public class Messenger_service {
 	
 	public Message_model getMessage(long id)
 	{
+		if (id <= 0) {
+			System.out.println("Invalid ID");
+			return null;
+		}
+		
 		return new Message_model();
 	}
 	
@@ -29,12 +34,21 @@ public class Messenger_service {
 	
 	public Message_model updateMessage(long id, Message_model new_message)
 	{
+		if (id <= 0) {
+			System.out.println("Invalid ID");
+			return null;
+		}
 		
 		return new_message;
 	}
 	
 	public Message_model deleteMessage(long id)
 	{
+		if (id <= 0) {
+			System.out.println("Invalid ID");
+			return null;
+		}
+		
 		return new Message_model();
 	}
 }
