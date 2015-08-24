@@ -6,6 +6,8 @@ This project is created using the latest Jave EE Eclipse Mars IDE. A Maven proje
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430995/b13ef0e6-49d5-11e5-8ec3-f064a7d38108.jpg)
 
 #Use cases
+The following are the possible user cases for my humble applicaiton:
+-
 
 #Deployment
 Luckily for me, as this is  my first time to, a) create a RESTful API, and, b) use AWS, eclipse makes the process of deploying on an EC2 instance simple and easy.
@@ -33,8 +35,8 @@ Once the application is deployed, a public DNS is provided. The one produced by 
 I used 'Postman' (a chrome plugin) to test the GET, POST, PUT and DELETE requests. Here's a screenshot:
 
 Here's how to use the GET, POST, PUT and DELETE requests:
-- **GET**  * .../webapi/messages* => to retrieve all the messages
-- **GET**   *.../webapi/messages/id* => to retrieve message with *id* and see if it's plaindromic or not
-- **POST**  *.../webapi/messages* => to post a message. The message should be provided in the body in a json format
-- **PUT**   *.../webapi/messages/id* =>  to replace message with *id* with a new message provided in the body in a json format
-- **DELETE**  *.../webapi/messages/id* => to delete message with *id*
+- **GET**  * .../MessengerAPI/messages* => to retrieve all the messages
+- **GET**   *.../MessengerAPI/messages/id* => to retrieve message with *id* and see if it's plaindromic or not
+- **POST**  *.../MessengerAPI/messages* => to post a message. The message should be provided in the body in a json format
+- **PUT**   *.../MessengerAPI/messages/id* =>  to replace message with *id* with a new message provided in the body in a json format
+- **DELETE**  *.../MessengerAPI/messages/id* => to delete message with *id*
