@@ -9,8 +9,8 @@ This project is created using the latest Jave EE Eclipse Mars IDE. A Maven proje
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9431435/2c5d6e8e-49df-11e5-8e32-c298c7991f33.jpg)
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9431434/2c56e4ec-49df-11e5-9bf4-219104ecca0e.jpg)
 NOTES:
--This assumes that the user is typing a proper URI
--An invalid ID referes to an ID of a message that does not exist
+- This assumes that the user is typing a proper URI
+- An invalid ID referes to an ID of a message that does not exist
 #Deployment
 Luckily for me, as this is  my first time to, a) create a RESTful API, and, b) use AWS, eclipse makes the process of deploying on an EC2 instance simple and easy.
 
