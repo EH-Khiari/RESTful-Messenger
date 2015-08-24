@@ -24,18 +24,18 @@ Luckily for me, as this is  my first time to, a) create a RESTful API, and, b) u
 
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430700/75098ce2-49cd-11e5-9cf2-f3353be268e8.jpg)
 
-NOTE: upon configuring an AWS server, you are given the option of creating a new key pair or using an already existing one. Since I did not have an already existing pair, I created a new one and namked it 'messengerPair'.
+NOTE: upon configuring an AWS server, you are given the option of creating a new key pair or using an already existing one. Since I did not have an already existing pair, I created a new one and named it 'messengerPair'.
 
 Once the applicaiton is deployed, a public DNS is provided. The one produced by me EC2 instance is:
-**http://messengerenvironment-exhtahi7nu.elasticbeanstalk.com**
+*http://messengerenvironment-exhtahi7nu.elasticbeanstalk.com*
 
 I used 'Postman' (a chrome plugin) to test the GET, POST, PUT and DELETE requests. Here's a screenshot:
 
 
 #REST API Documentation
 Here's how to use the GET, POST, PUT and DELETE requests:
-- **GET**   .../webapi/messages => to retrieve all the messages
-- **GET**   .../webapi/messages/id => to retrieve message with *id* and see if it's plaindromic or not
-- **POST**  .../webapi/messages => to post a message. The message should be provided in the body in a json format
-- **PUT**   .../webapi/messages/id =>  to replace message with *id* with a new message provided in the body in a json format
-- **DELETE**   .../webapi/messages/id => to delete message with *id*
+- **GET**  * .../webapi/messages* => to retrieve all the messages
+- **GET**   *.../webapi/messages/id* => to retrieve message with *id* and see if it's plaindromic or not
+- **POST**  *.../webapi/messages* => to post a message. The message should be provided in the body in a json format
+- **PUT**   *.../webapi/messages/id* =>  to replace message with *id* with a new message provided in the body in a json format
+- **DELETE**  *.../webapi/messages/id* => to delete message with *id*
