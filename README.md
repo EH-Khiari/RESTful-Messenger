@@ -1,8 +1,9 @@
 # RESTful-Messenger
-My first RESTful app.
+This is my first RESTful API. It is but a simple messenger app that allows a user to post a message, update a message, delete a message and determine whether a particular message is palindromic or not.
 
 #Implementation Architecutre
 This project is created using the latest Jave EE Eclipse Mars IDE. A Maven project was used in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (executing HTTP commands, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also needed for deployment. The following diagram provides an illustration.
+![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430907/887a4a46-49d2-11e5-8454-fd29fd814ee9.jpg)
 
 #Use cases
 
