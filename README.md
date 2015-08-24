@@ -26,13 +26,12 @@ Luckily for me, as this is  my first time to, a) create a RESTful API, and, b) u
 
 NOTE: upon configuring an AWS server, you are given the option of creating a new key pair or using an already existing one. Since I did not have an already existing pair, I created a new one and named it 'messengerPair'.
 
-Once the applicaiton is deployed, a public DNS is provided. The one produced by me EC2 instance is:
+Once the application is deployed, a public DNS is provided. The one produced by me EC2 instance is:
 *http://messengerenvironment-exhtahi7nu.elasticbeanstalk.com*
 
+#REST API Documentation
 I used 'Postman' (a chrome plugin) to test the GET, POST, PUT and DELETE requests. Here's a screenshot:
 
-
-#REST API Documentation
 Here's how to use the GET, POST, PUT and DELETE requests:
 - **GET**  * .../webapi/messages* => to retrieve all the messages
 - **GET**   *.../webapi/messages/id* => to retrieve message with *id* and see if it's plaindromic or not
