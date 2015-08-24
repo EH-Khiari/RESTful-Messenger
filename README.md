@@ -2,7 +2,7 @@
 This is my first RESTful API. It is but a simple messenger app that allows a user to post a message, update a message, delete a message and determine whether a particular message is palindromic or not.
 
 #Implementation Architecutre
-This project is created using the latest Jave EE Eclipse Mars IDE. A Maven project was used in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (executing HTTP commands, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also crucial for deployment. The following diagram provides an illustration.
+This project is created using the latest Jave EE Eclipse Mars IDE. I used a Maven project in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (handling HTTP requests, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also crucial for deployment. The following diagram provides an illustration.
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430995/b13ef0e6-49d5-11e5-8ec3-f064a7d38108.jpg)
 
 #Use cases
@@ -46,4 +46,4 @@ Here's how to use the GET, POST, PUT and DELETE requests:
 - **DELETE**  *.../MessengerAPI/messages/id* => to delete message with *id*
 
 #Future Works
-Besides making the application more meaningful, I plan to a) provide a UI and, more importantly, b) deploy it within a container. I have already attempted the latter by exploring Docker. I've spent many hours researching online on ways to integrate my Maven project, AWS and Docker, but to no avail. I was able to find an eclipse Docker image but I was not able to make it work due to the lack o documentation. 
+Besides making the application more meaningful, I plan to a) provide a UI and, more importantly, b) deploy it within a container. I have already attempted the latter by exploring Docker. I've spent many hours researching online on ways to integrate my Maven project, AWS and Docker, but to no avail. I was able to find an eclipse Docker image but was not able to make it work due to the lack o documentation. 
