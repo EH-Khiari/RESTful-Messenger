@@ -9,7 +9,7 @@ This project is created using the latest Jave EE Eclipse Mars IDE. A Maven proje
 #Deployment
 Luckily for me, as this is  my first time to, a) create a RESTful API, and, b) use AWS, eclipse makes the process of deploying on an EC2 instance simple and easy.
 
-1) Firstly, I had to connect to my newly created AWS account. To do so, I went to the AWS toolkit tab in the 'Prefrences' window, entered my 'Access Key ID' and 'Secret Access Key'. In order to launch an EC2 instance, I also had to type in my 'AWS Account Number' and provide the paths to the certificate and private key files. 
+1) Firstly, I had to connect to my newly created AWS account. To do so, I went to the AWS toolkit tab in the 'Preferences' window, entered my 'Access Key ID' and 'Secret Access Key'. In order to launch an EC2 instance, I also had to type in my 'AWS Account Number' and provide the paths to the certificate and private key files. 
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430691/38b365ba-49cd-11e5-893c-4834d758b749.jpg)
 
 2) Now it's time to configure an AWS server and launch it. The following screenshots visualize the process. 
