@@ -26,4 +26,10 @@ Luckily for me, as this is  my first time to, a) create a RESTful API, and, b) u
 
 NOTE: upon configuring an AWS server, you are given the option of creating a new key pair or using an already existing one. Since I did not have an already existing pair, I created a new one and namked it 'messengerPair'.
 
+Once the applicaiton is deployed, a public DNS is provided. The one produced by me EC2 instance is:
+**http://messengerenvironment-exhtahi7nu.elasticbeanstalk.com**
+
+I used 'Postman' (a chrome plugin) to test the GET, POST, PUT and DELETE requests. Here's a screenshot:
+
+
 #REST API Documentation
