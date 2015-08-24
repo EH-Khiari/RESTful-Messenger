@@ -3,7 +3,7 @@ This is my first RESTful API. It is but a simple messenger app that allows a use
 
 #Implementation Architecutre
 This project is created using the latest Jave EE Eclipse Mars IDE. A Maven project was used in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (executing HTTP commands, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also needed for deployment. The following diagram provides an illustration.
-![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430907/887a4a46-49d2-11e5-8454-fd29fd814ee9.jpg)
+![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430995/b13ef0e6-49d5-11e5-8ec3-f064a7d38108.jpg)
 
 #Use cases
 
@@ -34,8 +34,8 @@ I used 'Postman' (a chrome plugin) to test the GET, POST, PUT and DELETE request
 
 #REST API Documentation
 Here's how to use the GET, POST, PUT and DELETE requests:
-1) **GET** .../webapi/messages to retrieve all the messages
-2) **GET** .../webapi/messages/id to retrieve message with *id* and see if it's plaindromic or not
-3) **POST** .../webapi/messages to post a message. The message should be provided in the body in a json format
-4) **PUT** .../webapi/messages/id to replace message with *id* with a new message provided in the body in a json format
-5) **DELETE* .../webapi/messages/id to delete message with *id*
+- **GET**   .../webapi/messages => to retrieve all the messages
+- **GET**   .../webapi/messages/id => to retrieve message with *id* and see if it's plaindromic or not
+- **POST**  .../webapi/messages => to post a message. The message should be provided in the body in a json format
+- **PUT**   .../webapi/messages/id =>  to replace message with *id* with a new message provided in the body in a json format
+- **DELETE**   .../webapi/messages/id => to delete message with *id*
