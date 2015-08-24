@@ -3,7 +3,7 @@ This is my first RESTful API. It is but a simple messenger app that allows a use
 
 #Implementation Architecutre
 This project is created using the latest Jave EE Eclipse Mars IDE. A Maven project was used in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (executing HTTP commands, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also crucial for deployment. The following diagram provides an illustration.
-![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430995/b13ef0e6-49d5-11e5-8ec3-f064a7d38108.jpg
+![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430995/b13ef0e6-49d5-11e5-8ec3-f064a7d38108.jpg)
 
 #Use cases
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9431435/2c5d6e8e-49df-11e5-8e32-c298c7991f33.jpg)
