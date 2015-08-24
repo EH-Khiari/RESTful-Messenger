@@ -35,7 +35,7 @@ Once the application is deployed, a public DNS is provided. The one produced by 
 I used 'Postman' (a chrome plugin) to test the GET, POST, PUT and DELETE requests. Here's a screenshot:
 
 Here's how to use the GET, POST, PUT and DELETE requests:
-- **GET**  * .../MessengerAPI/messages* => to retrieve all the messages
+- **GET**  *.../MessengerAPI/messages* => to retrieve all the messages
 - **GET**   *.../MessengerAPI/messages/id* => to retrieve message with *id* and see if it's plaindromic or not
 - **POST**  *.../MessengerAPI/messages* => to post a message. The message should be provided in the body in a json format
 - **PUT**   *.../MessengerAPI/messages/id* =>  to replace message with *id* with a new message provided in the body in a json format
