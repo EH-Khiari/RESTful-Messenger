@@ -33,3 +33,9 @@ I used 'Postman' (a chrome plugin) to test the GET, POST, PUT and DELETE request
 
 
 #REST API Documentation
+Here's how to use the GET, POST, PUT and DELETE requests:
+1) **GET** .../webapi/messages to retrieve all the messages
+2) **GET** .../webapi/messages/id to retrieve message with *id* and see if it's plaindromic or not
+3) **POST** .../webapi/messages to post a message. The message should be provided in the body in a json format
+4) **PUT** .../webapi/messages/id to replace message with *id* with a new message provided in the body in a json format
+5) **DELETE* .../webapi/messages/id to delete message with *id*
