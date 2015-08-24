@@ -44,6 +44,6 @@ Here's how to use the GET, POST, PUT and DELETE requests:
 - **POST**  *.../MessengerAPI/messages* => to post a message. The message should be provided in the body in a json format
 - **PUT**   *.../MessengerAPI/messages/id* =>  to replace message with *id* with a new message provided in the body in a json format
 - **DELETE**  *.../MessengerAPI/messages/id* => to delete message with *id*
-- 
+
 #Future Works
 Besides making the application more meaningful, I plan to a) provide a UI and, more importantly, b) deploy it within a container. I have already attempted the latter by exploring Docker. I've spent many hours researching online on ways to integrate my Maven project, AWS and Docker, but to no avail. I was able to find an eclipse Docker image but I was not able to make them work due to the lack of available documentation. 
