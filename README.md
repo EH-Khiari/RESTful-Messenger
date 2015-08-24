@@ -2,18 +2,15 @@
 This is my first RESTful API. It is but a simple messenger app that allows a user to post a message, update a message, delete a message and determine whether a particular message is palindromic or not.
 
 #Implementation Architecutre
-This project is created using the latest Jave EE Eclipse Mars IDE. A Maven project was used in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (executing HTTP commands, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also needed for deployment. The following diagram provides an illustration.
+This project is created using the latest Jave EE Eclipse Mars IDE. A Maven project was used in order to facilitate the task of including the necessary dependancies, namely the 'Jersey' dependancies for taking care of the RESTful component of the project (executing HTTP commands, taking care of path parameters, returning XML and/or JSON responses), and the 'AWS-Java-SDK' to help deploy the application on an AWS instance. The eclipse AWS toolkit is also crucial for deployment. The following diagram provides an illustration.
+![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430995/b13ef0e6-49d5-11e5-8ec3-f064a7d38108.jpg
+
+#Use cases
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9431435/2c5d6e8e-49df-11e5-8e32-c298c7991f33.jpg)
 ![alt tag](https://cloud.githubusercontent.com/assets/5067413/9431434/2c56e4ec-49df-11e5-9bf4-219104ecca0e.jpg)
 NOTES:
 -This assumes that the user is typing a proper URI
 -An invalid ID referes to an ID of a message that does not exist
-
-#Use cases
-The following are the possible use cases for my humble applicaiton:
-![alt tag](https://cloud.githubusercontent.com/assets/5067413/9431434/2c56e4ec-49df-11e5-9bf4-219104ecca0e.jpg)
-![alt tag](https://cloud.githubusercontent.com/assets/5067413/9430691/38b365ba-49cd-11e5-893c-4834d758b749.jpg)
-
 #Deployment
 Luckily for me, as this is  my first time to, a) create a RESTful API, and, b) use AWS, eclipse makes the process of deploying on an EC2 instance simple and easy.
 
