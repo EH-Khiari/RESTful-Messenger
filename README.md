@@ -46,4 +46,4 @@ Here's how to use the GET, POST, PUT and DELETE requests:
 - **DELETE**  *.../MessengerAPI/messages/id* => to delete message with *id*
 
 #Future Works
-Besides making the application more meaningful, I plan to a) provide a UI and, more importantly, b) deploy it within a container. I have already attempted the latter by exploring Docker. I've spent many hours researching online on ways to integrate my Maven project, AWS and Docker, but to no avail. I was able to find an eclipse Docker image but I was not able to make them work due to the lack of available documentation. 
+Besides making the application more meaningful, I plan to a) provide a UI and, more importantly, b) deploy it within a container. I have already attempted the latter by exploring Docker. I've spent many hours researching online on ways to integrate my Maven project, AWS and Docker, but to no avail. I was able to find an eclipse Docker image but I was not able to make it work due to the lack o documentation. 
